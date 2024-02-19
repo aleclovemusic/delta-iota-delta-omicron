@@ -1,0 +1,70 @@
+.members-section {
+    background-color: var(--oldrose);
+    padding:20px;
+
+}
+.members-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.member {
+    width: auto;
+    max-width: 300px;
+    height: 480px;
+    background-color: rgb(229, 229, 229);
+    padding: 20px 20px 0px 20px;
+    border-radius:20px;
+    box-shadow:
+    0 1.4px 1.1px rgba(0, 0, 0, 0.034),
+    0 3.35px 2.25px rgba(0, 0, 0, 0.048),
+    0 6.25px 5px rgba(0, 0, 0, 0.06),
+    0 11.15px 9px rgba(0, 0, 0, 0.072),
+    0 20.9px 16.7px rgba(0, 0, 0, 0.086),
+    0 50px 40px rgba(0, 0, 0, 0.12)
+    ;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+summary::marker {
+    float:right;
+}
+
+details {
+    background: whitesmoke;
+    box-shadow:
+    0 1.4px 1.1px rgba(0, 0, 0, 0.034),
+    0 3.35px 2.25px rgba(0, 0, 0, 0.048),
+    0 6.25px 5px rgba(0, 0, 0, 0.06),
+    0 11.15px 9px rgba(0, 0, 0, 0.072),
+    0 20.9px 16.7px rgba(0, 0, 0, 0.086),
+    0 50px 40px rgba(0, 0, 0, 0.12)
+    ;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+details summary > * {
+    display: inline-block;
+}
+
+.member-name {
+    width:100%;
+}
+
+details p {
+    margin-top: 10px;
+}

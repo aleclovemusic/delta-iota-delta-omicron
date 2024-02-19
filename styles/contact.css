@@ -1,0 +1,52 @@
+.contact-section {
+    padding:20px;
+    text-align:center;
+    background-color: var(--oldrose);
+}
+
+.contact-section-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: #E5E5E5;
+    padding: 20px;
+    border-radius:20px;
+    min-height:400px;
+    box-shadow:
+    0 1.4px 1.1px rgba(0, 0, 0, 0.034),
+    0 3.35px 2.25px rgba(0, 0, 0, 0.048),
+    0 6.25px 5px rgba(0, 0, 0, 0.06),
+    0 11.15px 9px rgba(0, 0, 0, 0.072),
+    0 20.9px 16.7px rgba(0, 0, 0, 0.086),
+    0 50px 40px rgba(0, 0, 0, 0.12)
+    ;
+}
+
+.social-media a {
+    background-color: var(--pearlgray);
+    color:white;
+    font-size: 2.5em;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    padding:20px;
+    border-radius: 20px;
+    box-shadow:
+    0 1.4px 1.1px rgba(0, 0, 0, 0.034),
+    0 3.35px 2.25px rgba(0, 0, 0, 0.048),
+    0 6.25px 5px rgba(0, 0, 0, 0.06),
+    0 11.15px 9px rgba(0, 0, 0, 0.072),
+    0 20.9px 16.7px rgba(0, 0, 0, 0.086),
+    0 50px 40px rgba(0, 0, 0, 0.12)
+    ;
+}
+
+.social-media a:hover{
+    background-color: white;
+    color: var(--oldrose);
+}
